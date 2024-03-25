@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background: radial-gradient(
+    4000px circle at 60.39% 42.44%,
+    #1b1234 0%,
+    #17023b 100%
+  );
+}
+
+ul {
+  list-style-type: none;
+}
+.fade-in {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.app {
+  opacity: 0;
+}
